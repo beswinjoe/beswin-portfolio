@@ -16,8 +16,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Beswin Joe — Artificial Intelligence & Data Science",
-  description: "I build AI-powered products, software experiments, and useful tools at the intersection of intelligence and the web.",
+  title: "Beswin Joe — AI & Data Science",
+  description: "AI & Data Science developer, product builder, and speaker exploring artificial intelligence, software, data, and the web.",
+  openGraph: {
+    title: "Beswin Joe — AI & Data Science",
+    description: "AI & Data Science developer, product builder, and speaker exploring artificial intelligence, software, data, and the web.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Beswin Joe — AI & Data Science",
+    description: "AI & Data Science developer, product builder, and speaker exploring artificial intelligence, software, data, and the web.",
+    creator: "@beswinjoee",
+  },
 };
 
 export default function RootLayout({

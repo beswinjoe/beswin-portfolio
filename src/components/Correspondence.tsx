@@ -16,7 +16,7 @@ export default function Correspondence() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-8 sm:gap-16">
-            <Link href="mailto:hello@example.com" className="group flex items-center font-sans text-sm uppercase tracking-widest text-foreground/80 hover:text-accent-burgundy transition-colors">
+            <Link href="mailto:beswinjo70@gmail.com" className="group flex items-center font-sans text-sm uppercase tracking-widest text-foreground/80 hover:text-accent-burgundy transition-colors">
               Email me <span className="ml-2 font-serif text-lg leading-none transform group-hover:translate-x-1 transition-transform">→</span>
             </Link>
             
@@ -28,7 +28,7 @@ export default function Correspondence() {
               LinkedIn <span className="ml-2 font-serif text-lg leading-none transform group-hover:translate-x-1 transition-transform">→</span>
             </Link>
             
-            <Link href="https://x.com/beswinjoe" target="_blank" rel="noopener noreferrer" className="group flex items-center font-sans text-sm uppercase tracking-widest text-foreground/80 hover:text-accent-burgundy transition-colors">
+            <Link href="https://x.com/beswinjoee" target="_blank" rel="noopener noreferrer" className="group flex items-center font-sans text-sm uppercase tracking-widest text-foreground/80 hover:text-accent-burgundy transition-colors">
               X <span className="ml-2 font-serif text-lg leading-none transform group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </div>

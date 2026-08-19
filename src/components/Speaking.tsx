@@ -26,7 +26,7 @@ export default function Speaking() {
             
             <div className="mt-8 border-l-2 border-accent-burgundy pl-6">
               <h4 className="font-sans text-[10px] uppercase tracking-widest text-foreground/50 mb-2">Topic of Discourse</h4>
-              <p className="font-serif text-xl italic text-foreground/90">"Beyond the Basics: AI Literacy for the Workplace"</p>
+              <p className="font-serif text-xl italic text-foreground/90">&quot;Beyond the Basics: AI Literacy for the Workplace&quot;</p>
             </div>
           </div>
         </div>
