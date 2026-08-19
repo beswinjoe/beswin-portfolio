@@ -42,6 +42,10 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-foreground/80 leading-relaxed max-w-2xl text-balance">
             I build AI-powered products, software experiments, and useful tools at the intersection of intelligence and the web.
           </p>
+          
+          <p className="font-sans text-[10px] uppercase tracking-widest text-foreground/50 mt-4 md:mt-2">
+            Currently building · Open to interesting collaborations
+          </p>
         </motion.div>
       </div>
 
@@ -52,7 +56,7 @@ export default function Hero() {
         <p>Nagercoil, India</p>
         <p>AI & Data Science</p>
         <p>Independent Builder</p>
-        <p className="text-accent-green mt-2 font-serif italic normal-case text-sm">Est. 2026</p>
+        <p className="text-accent-green mt-2 font-serif italic normal-case text-sm">Est. 2007</p>
       </motion.div>
     </motion.section>
   );

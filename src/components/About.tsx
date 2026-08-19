@@ -26,9 +26,9 @@ export default function About() {
           {/* Portrait Image */}
           <div className="w-full lg:w-64 shrink-0 flex flex-col gap-3">
             <div className="relative aspect-[3/4] w-full max-w-[280px] border border-border-beige bg-foreground/5 p-2">
-              <div className="relative w-full h-full overflow-hidden filter grayscale-[20%] sepia-[15%] contrast-[1.05]">
+              <div className="relative w-full h-full overflow-hidden filter grayscale-[15%] sepia-[10%] contrast-[1.05]">
                 <Image
-                  src="/beswin.png"
+                  src="/beswin.jpg"
                   alt="Beswin Joe, AI & Data Science Developer"
                   fill
                   sizes="(max-width: 1024px) 280px, 256px"

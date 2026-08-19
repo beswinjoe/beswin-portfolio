@@ -16,13 +16,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://beswin-portfolio.vercel.app"),
   title: "Beswin Joe — AI & Data Science",
   description: "AI & Data Science developer, product builder, and speaker exploring artificial intelligence, software, data, and the web.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Beswin Joe — AI & Data Science",
     description: "AI & Data Science developer, product builder, and speaker exploring artificial intelligence, software, data, and the web.",
     type: "website",
     locale: "en_US",
+    url: "/",
   },
   twitter: {
     card: "summary_large_image",

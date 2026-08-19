@@ -21,8 +21,13 @@ export default function Footer() {
         </p>
       </div>
       
-      <div className="font-sans text-[10px] uppercase tracking-widest text-foreground/40 pb-8">
-        &copy; {currentYear} Beswin Joe. All rights reserved.
+      <div className="flex flex-col items-center gap-2 pb-8">
+        <p className="font-sans text-[10px] uppercase tracking-widest text-foreground/40">
+          Archive updated · August 2026
+        </p>
+        <p className="font-sans text-[10px] uppercase tracking-widest text-foreground/40">
+          &copy; {currentYear} Beswin Joe. All rights reserved.
+        </p>
       </div>
     </footer>
   );
