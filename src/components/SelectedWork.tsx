@@ -8,7 +8,7 @@ export default function SelectedWork() {
       year: "2026",
       description: "Creative and AI-powered tools designed for everyday users. An exploration into abstracting complex machine learning models behind intuitive, handcrafted interfaces.",
       tech: ["Next.js", "Python", "Machine Learning", "Tailwind CSS"],
-      link: "#",
+      link: "https://filoza.vercel.app",
     },
     {
       id: "02",
@@ -16,7 +16,7 @@ export default function SelectedWork() {
       year: "2026",
       description: "A developer-oriented infrastructure analysis tool focused on resolving domain hosting, IP routing, and server topography with high precision.",
       tech: ["TypeScript", "React", "DNS Protocols", "Node.js"],
-      link: "#",
+      link: "https://hostwhere.vercel.app",
     }
   ];
 
@@ -68,7 +68,7 @@ export default function SelectedWork() {
                   </ul>
                   
                   <div className="mt-8">
-                    <Link href={project.link} className="inline-flex items-center font-sans text-xs uppercase tracking-widest text-accent-burgundy hover:text-foreground transition-colors group-hover:underline underline-offset-4">
+                    <Link href={project.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center font-sans text-xs uppercase tracking-widest text-accent-burgundy hover:text-foreground transition-colors group-hover:underline underline-offset-4">
                       View Project <span className="ml-2 font-serif text-lg leading-none">→</span>
                     </Link>
                   </div>
