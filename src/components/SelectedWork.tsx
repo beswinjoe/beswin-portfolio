@@ -17,6 +17,22 @@ export default function SelectedWork() {
       description: "A developer-oriented infrastructure analysis tool focused on resolving domain hosting, IP routing, and server topography with high precision.",
       tech: ["TypeScript", "React", "DNS Protocols", "Node.js"],
       link: "https://hostwhere.vercel.app",
+    },
+    {
+      id: "03",
+      name: "DISHUB",
+      year: "2026",
+      description: "A web project built with Next.js, focused on delivering a polished modern digital experience.",
+      tech: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+      link: "https://github.com/beswinjoe/dishub",
+    },
+    {
+      id: "04",
+      name: "CHILLOFI",
+      year: "2026",
+      description: "A modern, minimal web experience designed to help you chill.",
+      tech: ["HTML", "CSS", "JavaScript", "Web Design"],
+      link: "https://chillofi.vercel.app",
     }
   ];
 
